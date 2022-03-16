@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data-Course-Project
-collect, work with, and clean a data set
+:goal_net: **collect, work with, and clean a data set**
 
 The R script is called run_analysis.R and it does the following: 
 
