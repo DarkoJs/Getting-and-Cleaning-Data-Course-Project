@@ -17,8 +17,10 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 
-** Data Structure** 
-The data structure consists of two factor variables, and 68 numeric variables. 
+**Data Structure**
+
+The data structure consists of two factor variables, and 68 numeric variables:
+
 - subject                       : Factor w/ 30 levels 
 - activity                      : Factor w/ 6 levels 
 - timeBodyAcc-mean()-X          : num  
