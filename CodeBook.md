@@ -15,3 +15,75 @@ For each record in the dataset it is provided:
 - A 561-feature vector with time and frequency domain variables.
 - Its activity label.
 - An identifier of the subject who carried out the experiment.
+
+
+** Data Structure** 
+The data structure consists of two factor variables, and 68 numeric variables. 
+- subject                       : Factor w/ 30 levels 
+- activity                      : Factor w/ 6 levels 
+- timeBodyAcc-mean()-X          : num  
+- timeBodyAcc-mean()-Y          : num  
+- timeBodyAcc-mean()-Z          : num  
+- timeBodyAcc-std()-X           : num  
+- timeBodyAcc-std()-Y           : num  
+- timeBodyAcc-std()-Z           : num  
+- timeGravityAcc-mean()-X       : num  
+- timeGravityAcc-mean()-Y       : num  
+- timeGravityAcc-mean()-Z       : num  
+- timeGravityAcc-std()-X        : num  
+- timeGravityAcc-std()-Y        : num  
+- timeGravityAcc-std()-Z        : num  
+- timeBodyAccJerk-mean()-X      : num  
+- timeBodyAccJerk-mean()-Y      : num  
+- timeBodyAccJerk-mean()-Z      : num  
+- timeBodyAccJerk-std()-X       : num  
+- timeBodyAccJerk-std()-Y       : num  
+- timeBodyAccJerk-std()-Z       : num  
+- timeBodyGyro-mean()-X         : num  
+- timeBodyGyro-mean()-Y         : num  
+- timeBodyGyro-mean()-Z         : num  
+- timeBodyGyro-std()-X          : num  
+- timeBodyGyro-std()-Y          : num  
+- timeBodyGyro-std()-Z          : num  
+- timeBodyGyroJerk-mean()-X     : num  
+- timeBodyGyroJerk-mean()-Y     : num  
+- timeBodyGyroJerk-mean()-Z     : num  
+- timeBodyGyroJerk-std()-X      : num  
+- timeBodyGyroJerk-std()-Y      : num  
+- timeBodyGyroJerk-std()-Z      : num  
+- timeBodyAccMag-mean()         : num  
+- timeBodyAccMag-std()          : num 
+- timeGravityAccMag-mean()      : num  
+- timeGravityAccMag-std()       : num  
+- timeBodyAccJerkMag-mean()     : num  
+- timeBodyAccJerkMag-std()      : num  
+- timeBodyGyroMag-mean()        : num  
+- timeBodyGyroMag-std()         : num  
+- timeBodyGyroJerkMag-mean()    : num  
+- timeBodyGyroJerkMag-std()     : num  
+- freqBodyAcc-mean()-X          : num  
+- freqBodyAcc-mean()-Y          : num  
+- freqBodyAcc-mean()-Z          : num  
+- freqBodyAcc-std()-X           : num  
+- freqBodyAcc-std()-Y           : num  
+- freqBodyAcc-std()-Z           : num  
+- freqBodyAccJerk-mean()-X      : num  
+- freqBodyAccJerk-mean()-Y      : num  
+- freqBodyAccJerk-mean()-Z      : num  
+- freqBodyAccJerk-std()-X       : num  
+- freqBodyAccJerk-std()-Y       : num  
+- freqBodyAccJerk-std()-Z       : num  
+- freqBodyGyro-mean()-X         : num  
+- freqBodyGyro-mean()-Y         : num  
+- freqBodyGyro-mean()-Z         : num  
+- freqBodyGyro-std()-X          : num  
+- freqBodyGyro-std()-Y          : num  
+- freqBodyGyro-std()-Z          : num  
+- freqBodyAccMag-mean()         : num  
+- freqBodyAccMag-std()          : num  
+- freqBodyBodyAccJerkMag-mean() : num  
+- freqBodyBodyAccJerkMag-std()  : num  
+- freqBodyBodyGyroMag-mean()    : num  
+- freqBodyBodyGyroMag-std()     : num  
+- freqBodyBodyGyroJerkMag-mean(): num  
+- freqBodyBodyGyroJerkMag-std() : num  
