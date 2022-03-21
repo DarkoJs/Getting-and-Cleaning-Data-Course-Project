@@ -16,8 +16,15 @@ For each record in the dataset it is provided:
 - Its activity label.
 - An identifier of the subject who carried out the experiment.
 
+**Transformations Performed To Clean Up The Data:**
 
-**Data Structure**
+1. The training and the test data sets were merged to create one data set.
+2. From the new data set, only the measurements on the mean and standard deviation for each measurement are extracted. 
+3. The activities in the data set are named with descriptive activity names. 
+4. The data set is appropriately labeled with descriptive variable names and abbreviations like "t" and "f" and typos like "BodyBody" are renamed to "Time", "Freq" and "Body". 
+5. A second, independent tidy data set with the average of each variable for each activity and each subject is created.
+
+**The Transformed Data Structure Inlcudes The Following Elements:**
 
 The data structure consists of two factor variables, and 68 numeric variables:
 
@@ -83,9 +90,9 @@ The data structure consists of two factor variables, and 68 numeric variables:
 - freqBodyGyro-std()-Z          : num  
 - freqBodyAccMag-mean()         : num  
 - freqBodyAccMag-std()          : num  
-- freqBodyBodyAccJerkMag-mean() : num  
-- freqBodyBodyAccJerkMag-std()  : num  
-- freqBodyBodyGyroMag-mean()    : num  
-- freqBodyBodyGyroMag-std()     : num  
-- freqBodyBodyGyroJerkMag-mean(): num  
-- freqBodyBodyGyroJerkMag-std() : num  
+- freqBodyAccJerkMag-mean()     : num  
+- freqBodyAccJerkMag-std()      : num  
+- freqBodyGyroMag-mean()        : num  
+- freqBodyGyroMag-std()         : num  
+- freqBodyGyroJerkMag-mean()    : num  
+- freqBodyGyroJerkMag-std()     : num  
