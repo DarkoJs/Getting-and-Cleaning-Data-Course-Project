@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Course Project
-:goal_net: **collect, work with, and clean a data set**
+:white_check_mark: **collect, work with, and clean a data set**
 
 The goal of the project is to prepare tidy data based on Human Activity Recognition Using Smartphones Data Set, that can be used for later analysis. 
 
