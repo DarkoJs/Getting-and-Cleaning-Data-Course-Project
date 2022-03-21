@@ -20,7 +20,7 @@ x_train <- read.table('./train/X_train.txt', col.names = features$feature_label)
 x_test <- read.table('./test/X_test.txt', col.names = features$feature_label)
 y_train <- read.table('./train/y_train.txt', col.names = "activity_code")
 y_test <- read.table('./test/y_test.txt', col.names = "activity_code")
-activities <- read.table('./activity_labels.txt', col.names=c("activity_ID", "activity_label"))
+activities <- read.table('./activity_labels.txt', col.names=c("activity_No.", "activity_label"))
 subject_train <- read.table('./train/subject_train.txt', col.names = "subject")
 subject_test <- read.table('./test/subject_test.txt', col.names = "subject")
 
