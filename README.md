@@ -11,7 +11,7 @@ The project repo includes the following files:
 * R script called [run_analysis.R](https://github.com/DarkoJs/Getting-and-Cleaning-Data-Course-Project/blob/main/run_analysis.R) that does the following: :checkered_flag:
     * Merges the training and the test sets to create one data set.
     * Extracts only the measurements on the mean and standard deviation for each measurement. 
-    * Uses descriptive activity names to name the activities in the data set
+    * Uses descriptive activity names to name the activities in the data set.
     * Appropriately labels the data set with descriptive variable names. 
     * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 * A [link here](https://github.com/DarkoJs/Getting-and-Cleaning-Data-Course-Project) to the Github repository with all the scripts/files listed above :checkered_flag:
