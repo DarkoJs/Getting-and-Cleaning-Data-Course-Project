@@ -28,11 +28,11 @@ subject_test <- read.table('./test/subject_test.txt', col.names = "subject")
 x_all <- rbind(x_train, x_test)
 y_all <- rbind(y_train, y_test)
 subject_all <- rbind(subject_train, subject_test)
-df <- cbind(subject_all, y_all, x_all)
-head(df)
+merger <- cbind(subject_all, y_all, x_all)
+head(merger)
 
 # 2. Extract only the measurements on the mean and standard deviation for each measurement 
-finaldataset <- df %>%
+finaldataset <- merger %>%
   select(subject, activity_code, contains("mean"), contains("std"))
 
 # 3. Use descriptive activity names to name the activities in the data set
