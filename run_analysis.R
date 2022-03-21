@@ -15,7 +15,7 @@ setwd("~/Getting and Cleaning Data/UCI HAR Dataset")
 # 1. Merge the training and the test sets to create one data set
 
 # Read the data set 
-features <- read.table('./features.txt', col.names=c("feature_ID", "feature_label"))
+features <- read.table('./features.txt', col.names=c("feature_No.", "feature_label"))
 x_train <- read.table('./train/X_train.txt', col.names = features$feature_label)
 x_test <- read.table('./test/X_test.txt', col.names = features$feature_label)
 y_train <- read.table('./train/y_train.txt', col.names = "activity_code")
