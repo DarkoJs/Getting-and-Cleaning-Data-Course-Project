@@ -6,10 +6,10 @@ The goal of the project is to prepare tidy data based on Human Activity Recognit
 The project repo includes the following files: 
 
 * A README.md 
-* A tidy data set named "tidy_data_set/txt".
+* A tidy data set named "tidy_data_set.txt".
 * a CodeBook.md code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
-* A (link here)[https://github.com/DarkoJs/Getting-and-Cleaning-Data-Course-Project] to the Github repository with all the scripts/files listed above
-R script called run_analysis.R that does the following:
+* A [link here](https://github.com/DarkoJs/Getting-and-Cleaning-Data-Course-Project) to the Github repository with all the scripts/files listed above
+* R script called run_analysis.R that does the following:
 
 
 
